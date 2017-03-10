@@ -1,6 +1,4 @@
-# -----------------------------
 # Steps to run the application
-# -----------------------------
 
 1. Add appropriate API keys in index.html and foodRecipeJS.js files where there is a header with "YOUR_KEY"
 2. Run index.html under public_html folder
