@@ -1,0 +1,231 @@
+/* 
+    Created on : Feb 24, 2017
+    Author     : Pooja Shah
+*/
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+.containerDiv{
+    width: 100%;
+}
+.sidebar{
+    width: 15%; 
+    float: left;
+    overflow: auto;
+}
+
+.recipeResults{
+    list-style: none;
+    background-color: #99ccff;
+    color: black;
+    padding: 0;
+}
+
+.recipeResults li{
+    border-bottom: 1px solid white;
+}
+
+.recipeResults li:hover{
+    cursor: pointer;
+}
+
+.displayRecipe{
+    margin-left: 3%;
+    margin-top: 20px;
+    float: left;
+}
+
+.displayRecipeDiv{
+    width: 30%; 
+    float: left;
+}
+
+.nearbyRestaurants{
+    margin-top: 15px;
+    float: left;
+    width: 23%;
+}
+
+.displayIngredientsDiv{
+    float: left;
+    width: 70%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: keep-all;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.preparationSteps{
+    float: left;
+    margin-left: 5%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: keep-all;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.bodyStyles{
+    background-color: mintcream;
+    width: 100%;
+    height: 100%;
+    font-family: cursive;
+    font-size: 14px;
+}
+
+.recipeNameDiv{
+    width: 35%;
+    float: left;
+}
+.recipeName {
+    font-size: 18px;
+    font-weight: bold;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: keep-all;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.recipeImage{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.chefDiv{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: crimson;
+}
+
+.caloriesDiv{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: crimson;
+}
+
+.addressDiv{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: crimson;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: keep-all;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.nameRest{
+    margin-left: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: keep-all;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.displayIngredientsDiv{
+    clear: both;
+}
+
+.ingredientsTitle{
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 16px;
+    color: crimson;
+    font-weight: bold;
+}
+
+.linkButton {
+  text-decoration: none;
+  background-color: #CCCCCC;
+  padding: 1px 5px 1px 5px;
+  color: black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.searchRestaurants{
+    margin-left: 5px;
+}
+
+.restaurantResults{
+    list-style: none;
+    background-color: #99ccff;
+    color: black;
+    padding: 0;
+}
+
+.restaurantResults li{
+    border-bottom: 1px solid white;
+}
+
+.restaurantResults li:hover{
+    cursor: pointer;
+}
+
+.restaurantDetails{
+    margin-top: 15px;
+    float: left;
+    margin-left: 10px;
+    width: 30%;
+}
+
+#map{
+    width: 300px;
+    height: 300px;
+}
+
+.restImg{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    float: left;
+}
+
+.restDetails{
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+}
+.restaurantName {
+    font-size: 16px;
+    font-weight: bold;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: keep-all;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.displayAdd{
+    font-size: 16px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: keep-all;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+.phone{
+    font-size: 16px;
+    color: crimson;
+}
+
+.rating{
+    font-size: 16px;
+    color: crimson;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+    Created on: Feb 24, 2017
+    Author: Pooja Shah
+-->
+
+<!--
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ -->
+<html>
+    <head>
+        <title>
+            Food Recipe Search Web Services
+        </title>
+        <!--Importing the scripts and css files-->
+        <script src="js/libs/jquery/jquery.js" type="text/javascript"></script>
+        <script type="text/javascript" src="https://rawgit.com/rmxdave/phnx/master/lib/OAuth/OAuth.js"></script>
+        <script type="text/javascript" src="https://rawgit.com/rmxdave/phnx/master/lib/OAuth/SHA1.js"></script>
+		<!-- Add your keys-->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&sensor=false"></script>
+        <script src="js/foodRecipeJS.js" type="text/javascript"></script>
+        <link href="css/recipeCSS.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body class="bodyStyles">
+        <div>
+            <!--Takes the food typed as input from the user-->
+            Enter Keyword: <input type="text" name="foodName" id="foodName"/>
+            <input type="button" value="Food Recipe Search" name="searchRecipe" class="searchRecipe"/>
+        </div>
+        <div class="containerDiv">
+            <!--This div shows the list of food recipes matching the keyword typed-->
+            <div class="sidebar">
+                <ul class="recipeResults">
+                </ul>
+            </div>
+            <!--This div displays the recipe of clicked food item-->
+            <div class="displayRecipeDiv">
+                <div class="displayRecipe">
+                </div>
+                <div class="displayIngredientsDiv">
+                    <div class="ingredientsTitle"></div>
+                    <ul class = "displayIngredients">
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+                <div class="preparationSteps">
+                </div>
+            </div>
+            <!--This displays the text box where user types in the city 
+            and displays the nearby restaurants-->
+            <div class="nearbyRestaurants">
+            </div>
+            
+            <!--This div displays the restaurant details-->
+            <div class="restaurantDetails">
+                <!--This div displays the map which shows the position of restaurant-->
+                <div id="map">
+                </div>
+                <!--This div displays the restaurant details-->
+                <div class="viewRestaurantDetails">
+                    <div class="restImg"></div>
+                    <div class="restDetails"></div>
+                    <div class="clearfix"></div>
+                    <div class="otherDetails"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </body>
+</html>
